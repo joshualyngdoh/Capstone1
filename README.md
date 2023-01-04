@@ -1,10 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+  
+  <h3><b>First Capstone Project Microverse</b></h3>
 
 </div>
 
@@ -12,22 +10,16 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 # 📖 [Capstone-Project] <a name=""></a>
@@ -88,7 +80,7 @@ Run git clone on the terminal along with https://github.com/joshualyngdoh/Capsto
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/joshualyngdoh)
-- Twitter: [@twitterhandle](https://twitter.com/joshualyngdoh08)
+- Twitter: [@twitterhandle](https://www.linkedin.com/in/joshua-lyngdoh-11ba7021a)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/joshualyngdoh)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
