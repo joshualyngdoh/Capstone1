@@ -80,8 +80,8 @@ Run git clone on the terminal along with https://github.com/joshualyngdoh/Capsto
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/joshualyngdoh)
-- Twitter: [@twitterhandle](https://www.linkedin.com/in/joshua-lyngdoh-11ba7021a)
-- LinkedIn: [@LinkedIn](https://linkedin.com/in/joshualyngdoh)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle))
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/joshua-lyngdoh-11ba7021a)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
