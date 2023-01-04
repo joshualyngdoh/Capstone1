@@ -97,11 +97,11 @@ button {
   font-size: 2rem;
 }
 
-.tittle h3 {
+.title h3 {
   color: rgb(255, 73, 37);
 }
 
-.tittle h1 {
+.title h1 {
   -webkit-background-clip: text;
   background-clip: var(text);
   background-image: url(images/orange.jpg);
@@ -379,15 +379,15 @@ p {
     border: 2px solid rgb(18, 208, 233);
   }
 
-  .tittle {
+  .title {
     margin: 7%;
   }
 
-  .tittle h3 {
+  .title h3 {
     font-size: 2rem;
   }
 
-  .tittle h1 {
+  .title h1 {
     font-size: 3.5rem;
     width: 48%;
   }

@@ -101,19 +101,20 @@ button {
   font-size: 2rem;
 }
 
-.tittle {
+.title {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.tittle h3 {
+.title h3 {
   color: rgb(255, 73, 37);
   text-align: center;
   margin: 10px;
+  font-size: 2rem;
 }
 
-.tittle h1 {
+.title h1 {
   -webkit-background-clip: text;
   background-clip: var(text);
   background-image: url('images/orange.jpg');
@@ -382,7 +383,7 @@ hr {
     display: none;
   }
 
-  .tittle h1 {
+  .title h1 {
     font-size: 2.7rem;
   }
 
