@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href="">Logout</a>
+            <a href="">My Page</a>
+            <a href="">English</a>
+        </div>
+        <nav class="desktop_navmenu">
+            <a id="weblogo" href="./index.html"><img src="images/logo.jpg" id="logoimage" alt="Logo"></a>
+            <ul class="navdesktop">
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a id="alink" href="./about.html">
+                    <li>About</li>
+                </a>
+                <a href="">
+                    <li>Sponsor</li>
+                </a>
+                <a href="">
+                    <li>News</li>
+                </a>
+                <a href=""><button type="button">Campaign</button></a>
+            </ul>
+        </nav>
+        <i class="fa-solid fa-bars"  onclick="OpenMenu()" id="menu-icon"></i>
+    </header>
+
+<!-- mobile menu -->
+<div class="mobilemenu">
+    <img class="closeicon"  onclick="CloseMenu()" src="images/closeicon.png" alt="close_icon">
+    <div class="menu-top">
+        <ul>
+            <li><a>English</a></li>
+            <li><a>Mypage</a></li>
+            <li><a>Logout</a></li>
+        </ul>
+    </div>
+    <ul class="mobile-menu">
+        <li><a href="./index.html" class="links" id="home" >Home</a></li>
+        <li><a href="./about.html" class="links" id="about" >About</a></li>
+        <li><a id="programLink" class="links">Program</a></li>
+        <li><a id="joinLink" class="links">Join</a></li>
+        <li><a id="contactLink" class="links">Contact</a></li>
+    </ul>
+</div>
+<main>
+
+    <section class="techno">
+        <div class="tittle">
+            <h3>"Hello! Future Programmer"</h3>
+            <h1>Coding Workshop 2023</h1>
+        </div>
+        
+        <div class="technoj">
+            <p class="tech2">Our winter workshop brings to you a community of experts and leaders in the tech industries who wish to further enhance your knowledge on the importance of software engineering. We hope that this program will serve to jump start your career in the tech industry with us.</p>
+            <p class="p">If you have any queries, don't hesitate to reach out to us.</p>
+            <p class="address">coding.winterworkshop@India.org</p>
+        </div>
+
+        <div class="techjdl">
+            <h2>Coding Workshop<br class="logi"> Winter 2023</h2>
+            <hr>
+            <p>The 2 days workshop is from the 5th to the 6th of January 2023.</p>
+            <img class="boot-image" src="images/logo.jpg" id="logoimage" alt="">
+        </div>
+        <div class="past-bootcamps">
+            <h2>Previous Coding Workshops</h2>
+            <hr>
+            <p>Take a look at the last two workshops organized by our group which took place in Mumbai and Delhi</p>
+            <div class="bootcampphotos">
+                <div class="firstphoto past">
+                    <h2>2022</h2>
+                    <p>Our Winter Workshop in Mumbai</p>
+                </div>
+                <div class="secondphoto past">
+                    <h2>2022</h2>
+                    <p>Our Summer Workshop in Delhi</p>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+
+    <footer>
+        <div class="logo_rights">
+            <img src="images/logo.jpg" id="logoimage" alt="Logo">
+            <p>@2023 Coding Workshop. Some rights reserved</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
