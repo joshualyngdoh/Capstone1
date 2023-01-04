@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>First Capstone Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- mobile menu -->
+   <div class="mobilemenu">
+    <img class="closeicon" onclick="CloseMenu()" src="images/closeicon.png" alt="close_icon">
+    <div class="menu-top">
+        <ul>
+            <li><a>English</a></li>
+            <li><a>Mypage</a></li>
+            <li><a>Logout</a></li>
+        </ul>
+    </div>
+    <ul class="mobile-menu">
+        <li><a href="./index.html" class="links" id="home" >Home</a></li>
+        <li><a href="./about.html" class="links" id="about" >About</a></li>
+        <li><a id="programLink" class="links">Program</a></li>
+        <li><a id="contactLink" class="links">Contact</a></li>
+    </ul>
+</div>
+
+<header>
+    <div class="topbar">
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href="">Logout</a>
+        <a href="">My Page</a>
+        <a href="">English</a>
+    </div>
+    <nav class="desktop_navmenu">
+        <a id="weblogo" href="./index.html"><img src="images/logo.jpg" id="logoimage" alt="Logo"></a>
+        <ul class="navdesktop">
+            <a id="alink" href="./index.html">
+                <li>Home</li>
+            </a>
+            <a href="./about.html">
+                <li>About</li>
+            </a>
+            <a href="">
+                <li>Sponsor</li>
+            </a>
+            <a href="">
+                <li>News</li>
+            </a>
+            <a href=""><button type="button">Campaign</button></a>
+        </ul>
+    </nav>
+    <i class="fa-solid fa-bars"  onclick="OpenMenu()" id="menu-icon"></i>
+
+</header>
+<main>
+<section class="headline">
+    <div class="title">
+        <h3>"Hello! Future Programmer"</h3>
+        <h1>Coding Workshop 2023</h1>
+        <p class="tech">Our 2 days winter Workshop aims to give you a better understanding of what programming is and why it is important in our daily lives. As technology is becoming ever more present in our day to day routines, we want to give you a better understanding of the tools needed in order for it to work so you may choose if this is the right career path for you</p>
+    </div>
+
+    <div class="date">
+        <h3>Join us on the 5th and 6th of January 2023</h3>
+        <p class="venue">@ Vivanta Taj Group of Hotels, Shillong</p>
+    </div>
+</section>
+
+
+    <section class="container">
+        <h3>
+            Main Program
+        </h3>
+        <hr>
+        <section class="container2">
+
+            <div class="wrap">
+                <i class="fa-brands fa-node"></i>
+                 <h3>Node JS</h3>
+            
+                <p>Node.js is a back-end JavaScript runtime environment. It runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.</p>
+            </div>
+
+            <div class="wrap">
+                <i class="fa-brands fa-js"></i>
+                 <h3>JavaScript</h3>
+                 <p>JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data.</p>
+            </div>
+
+            <div class="wrap">
+                <i class="fa-solid fa-code-branch"></i>
+                 <h3>Grapghs</h3>
+                 <p>In computer science, a graph is an abstract data type that consists of finite set of vertices together with a set of edges that represent links between vertices.</p>
+            </div>
+
+            <div class="wrap">
+                <i class="fa-solid fa-cloud"></i>
+                 <h3>Cloud</h3>
+            
+                <p>The cloud" refers to servers that are accessed over the Internet, and the software and databases that run on those servers</p>
+            </div>
+
+            <div class="wrap">
+                <i class="fa-solid fa-database"></i>
+                 <h3>DataBase</h3>
+                 <p>A database is a repository of information managed by a database engine which ensures integrity of data and fast access to the data.</p>
+            </div>
+
+    </section>
+        <a class="linksj">SEE THE WHOLE PROGRAM</a>
+</section>
+
+
+<section class="speakers">
+    <h3>Featured Speakers</h3>
+    <hr>
+    <div class="speakers-a">
+    </div>
+</section>
+</div>
+
+
+<footer>
+    <div class="part">
+            <h2>Affiliate Groups</h2>
+            <hr>
+
+        <div class="part-team">
+                <h3><i class="fab fa-microsoft"></i>Microsoft</h3>    
+                <h3><i class="fab fa-google"></i>Google</h3>
+                <h3><i class="fa-brands fa-linux"></i>Linux</h3>
+                <h3><i class="fa-brands fa-apple"></i>Apple</h3>
+                <h3><i class="fa-brands fa-airbnb"></i>Airbnb</h3>
+        </div>  
+    </div>
+
+    <div class="logo_rights">
+        <img src="images/logo.jpg" id="logoimage" alt="Logo">
+        <p>@2023 Coding Workshop. Some rights reserved</p>
+    </div>
+</footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
